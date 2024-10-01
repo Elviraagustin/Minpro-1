@@ -6,6 +6,37 @@ Coding
 
 ![Screenshot 2024-10-01 001509](https://github.com/user-attachments/assets/c588993e-5cbe-4696-bbca-0732cefbba28)
 
+[Uploawhile True:
+    #Input nama dan nim
+    masukkan_nama = input("Nama: ")
+    masukkan_nim = input("Nim: ")
+
+    # Input harga barang dan jumlah pembelian
+    harga_barang = float(input("Masukkan harga barang: Rp "))
+    jumlah_pembelian = int(input("Masukkan jumlah pembelian: "))
+
+    # Hitung total harga
+    total_harga = harga_barang * jumlah_pembelian
+
+    # Percabangan untuk menentukan diskon 
+    if total_harga > 250000:
+        diskon = total_harga * 0.25
+        total_harga_setelah_diskon = total_harga - diskon
+        print(f"Total harga: Rp {total_harga:.2f}")
+        print(f"Anda mendapatkan diskon 25%: Rp {diskon:.2f}")
+        print(f"Total harga setelah diskon: Rp {total_harga_setelah_diskon:.2f}")
+    else:
+        print(f"Total harga: Rp {total_harga:.2f}")
+        print("Anda tidak mendapatkan diskon")
+
+    # Tanya apakah ingin menghitung lagi
+    pilihan = input("Apakah Anda ingin menghitung total harga lagi? (ya/tidak): ")
+    if pilihan.lower() != 'ya':
+        print("Terima kasih telah menggunakan program ini!")
+        break
+ding praktikum dasar pemrograman.py…]()
+
+
 Loop while True::
 
 Ini adalah loop tak terbatas yang akan terus berjalan sampai dihentikan oleh perintah break.
