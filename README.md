@@ -89,4 +89,4 @@ Jika Ya: Kembali ke langkah input harga barang.
 Jika Tidak: Program selesai.
 
 
-Selesai: Program berakhir jika pengguna memil
+Selesai: Program berakhir jika pengguna memilih tidak menghitung total harga lagi.
