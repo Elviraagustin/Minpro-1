@@ -6,6 +6,55 @@ Coding
 
 ![Screenshot 2024-10-01 001509](https://github.com/user-attachments/assets/c588993e-5cbe-4696-bbca-0732cefbba28)
 
+Loop while True::
+
+Ini adalah loop tak terbatas yang akan terus berjalan sampai dihentikan oleh perintah break.
+
+
+Input data:
+
+Program meminta pengguna memasukkan nama dan NIM.
+Kemudian meminta harga barang (sebagai float) dan jumlah pembelian (sebagai integer).
+
+
+Perhitungan total harga:
+
+Total harga dihitung dengan mengalikan harga barang dan jumlah pembelian.
+
+
+Penentuan diskon:
+
+Menggunakan struktur if-else untuk menentukan apakah pembelian mendapat diskon.
+Jika total harga > Rp 250.000, pembeli mendapat diskon 25%.
+Jika tidak, tidak ada diskon.
+
+
+Output:
+
+Program menampilkan total harga, jumlah diskon (jika ada), dan total harga setelah diskon.
+
+
+Opsi untuk menghitung lagi:
+
+Program bertanya apakah pengguna ingin menghitung lagi.
+Jika jawaban bukan 'ya', program akan berhenti dengan pesan terima kasih dan break dari loop.
+
+
+Penggunaan f-string:
+
+Untuk memformat output angka dengan 2 desimal (contoh: {total_harga:.2f}).
+
+
+Konversi input:
+
+float() digunakan untuk harga barang agar bisa menerima angka desimal.
+int() digunakan untuk jumlah pembelian karena harus bilangan bulat.
+
+
+Penggunaan lower():
+
+Pada pilihan untuk menghitung lagi, lower() digunakan agar input tidak case-sensitive.
+
 flowchart
 
 ![Screenshot 2024-10-01 004500](https://github.com/user-attachments/assets/8780bb0d-6703-45bc-a138-5a77311942cb)
